@@ -1,0 +1,141 @@
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+
+html {
+  background-color: #f5f5f5;
+}
+
+.footer-welcome {
+  > span,
+  > p {
+    margin: 0 5px;
+  }
+}
+
+.body {
+  margin: 10px;
+}
+
+.home {
+  padding-top: 35%;
+  button {
+    margin: 0 60px !important;
+    padding: 19px !important;
+    outline-style: none;
+    border-radius: 10px;
+    font-size: x-large !important;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+  }
+  .up > button {
+    width: 230px;
+  }
+  .down {
+    padding-top: 15%;
+  }
+}
+
+.p-welcome {
+  max-width: 400px;
+}
+
+.bank-logo {
+  max-width: 250px;
+}
+
+.logout-icon {
+  max-width: 15px;
+}
+
+.div {
+  border-radius: 2px;
+  border: black;
+  border-style: solid;
+}
+
+.curve-border {
+  border: 1px solid #59ac93;
+  border-radius: 5px;
+  margin: 30px;
+  padding: 25px 30px;
+  background-color: #e6e6e6;
+}
+
+.helvetica {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.times {
+  font-family: Times New Roman, serif;
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: left;
+  height: 50px;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.forbes {
+  > img,
+  > p {
+    margin: 20px;
+  }
+}
+
+.welcome-all > div {
+  margin: 75px 0;
+}
+
+.connected-body > div {
+  margin: 35px 15px;
+}
+
+.nav-bar {
+  background-color: #e6e6e6;
+}
+
+.title-primary {
+  color: #59ac93;
+}
+
+.tab-primary[aria-selected="true"],
+.tab-primary:not([aria-disabled="true"]):hover {
+  color: #59ac93;
+}
+
+.inputgroup > div,
+.inputgroup > button {
+  margin: 10px 0;
+}
+
+.outline-style-d:focus {
+  outline-style: none !important;
+}
+
+.bp3-tab-indicator {
+  background-color: #59ac93 !important;
+}
+
+.center {
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.fx {
+  display: flex;
+  &.-c {
+    flex-direction: column;
+  }
+  &.-r {
+    flex-direction: row;
+  }
+  &.-w {
+    flex-wrap: wrap;
+  }
+  &.-e {
+  }
+}
+
+.red {
+  color: red;
+}
